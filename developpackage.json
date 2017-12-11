@@ -1,0 +1,28 @@
+{
+  "name": "ele-react-cli",
+  "version": "0.1.0",
+  "private": true,
+  "productName": "MyApp",
+  "main": "main.js",
+  "homepage": ".",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron-start": "electron .",
+    "dev": "electron . --debug",
+    "package": "electron-packager . --overwrite --platform=win32  --out=./app --icon=public/app.ico --prune"
+  },
+  "devDependencies": {
+    "devtron": "^1.4.0",
+    "electron": "^1.7.9",
+    "electron-packager": "^10.1.0"
+    
+  }
+}
