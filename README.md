@@ -1,4 +1,4 @@
-npm i 
-npm run build
-npm run electron-start
+## npm i 
+## npm run build
+## npm run electron-start
 
